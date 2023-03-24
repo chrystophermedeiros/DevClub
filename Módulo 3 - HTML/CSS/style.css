@@ -1,0 +1,51 @@
+/* unidades de medidas
+
+ Absolutas
+    px(pixels) 1/100 polegada 0,254 mm
+    in(inches/polegada)
+    cm/mm(centimetro/milimetro)
+
+ Relativas
+    % calcula o tamanho relativo ao elemento pai
+    vw(view width)  1vw é 1% da largura da janela do navegador
+    vh(view height)  1vh é 1% da altura da janela do navegador
+    em é uma unidade relativa ao elemento pai
+    rem é uma unidade relativa ao elemento raiz
+*/
+
+*{
+    margin: 1;
+}
+
+:root{
+ --color-principal: rgba(0, 4, 255, 0.366);
+}
+
+p, h1{
+    background-color: var(--color-principal);
+
+}
+
+#titulo{
+    
+    color: aqua;
+}
+
+.paragrafos{
+    font-weight: bold;
+}
+
+.vo{
+
+}
+
+.pai{
+    font-size: 16px;
+
+}
+
+.filho{
+    font-size: 100%;
+
+}
+
