@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+}
+
+h1{
+    color: blueviolet !important;
+    color: blue;
+}
+
+.div-dad {
+    height: 200px;
+    width: calc(200px + 200px);
+    background-color: #FF1396;
+}
+
+.div-son {
+    height: 100px;
+    width: 100px;
+    background-color: #FFFF00;
+}
+
+input{
+    border: 1px solid blue;
+    color: darkblue;
+}
+input::placeholder{
+    color: chartreuse;
+}
+
+p::first-letter{
+    color: red;
+}
+
+a{
+    color: blue;
+}
+
+a::before{
+    content:"->" ;
+}
+
+a::after{
+    content:"👺" ;
+}
+
+/* Pseudo class */
+a:hover{
+    color: red;
+}
+
+li:first-child{
+    color: #FF1396;
+}
+
+
+@media screen and (max-width:700px) and (orientation: landscape){
+    .div-son{
+        background-color: chocolate;
+    }
+}
+
+
+
+
+
+
+/* Position 
+
+static (padrão)= não acieta valores de top, bottom, rigth e left
+fixed = fixa no elemento na tela
+relative= posição relativa a posição inicial dele
+absolute= posição absoluta a algum elemento ou a pagina
+ Se não tiver paia/pai for static = posiciona refente a pagina
+ Se o paia Não foir static = posiciona referente ao pai 
+
+*/
+
+/* Pseudo class
+    :active = quando o elemento está ativo, ou seja está sendo pressionado
+    :visited= seleciona o link que ofi visitado
+    :hover= quando o mouse passa em cima do elemento
+    :checked= usado em radio/checkbox/select
+    :disabled= elemento está desahabilitado
+    :enabled= elemento está habilitado
+    :focus= é aplicado quando um elemenro recebe focom o que   pode ocorrrer quando o usuario seleciona o elemento
+    :read-only= seleciona input ou teztarea que são apenas   leitura
+    :empty= elemento que não tem filho
+
+    :first-child= primeiro filho/ ex: primeira li de uma il / primeira span de uma div
+    :first-of-type= primeiro elemento do seu tipo entre os filhos de seu elemento pai
+    :last-child= ultimo filho
+    :last-of-type= ultimo elmento de seu tipo entre os filhos do seu pai
+    :not()= estiliza os elementos, exceto o que está dentro do ()
+    :nth-child()= seleciona o elemento baseadp na sua posicição Ex: ntd-child(3)
+    :ntd-last-child()= seleciona o elemento baseado na sua posição, contando de tras para frente.
+
+
+
+*/
+
+/* Responsividade
+
+    All= para todos os dispositivos
+    Braille = para dispositivos táteis
+    Embossed=para dispositivos que imprimem em braile
+    Hanheld= para dipsositivos portateis, geralmente com telas pequenas e banda limitada
+    Print= para impresao em papel
+    Projection: para apresentações com PPS
+    Screen= para monitores ou dipsositvos com relas coloridas e rossolução adquada
+    Speech= para sintetizadores de voz. As CSS 2 tem uma espesificação de CSS chama Aural, onde podemos formatar  a voz dos sintetizadores.
+
+    orientação:
+    portraid= altura maior que a largura
+    Landscape= Largura maior que a altura
+
+
+
+
+*/
