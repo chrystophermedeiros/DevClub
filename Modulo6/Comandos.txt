@@ -3,7 +3,7 @@ git config --global user.name seu-username
 git config --list
 
 git status
-git add = a mesma coisa de fazer um comit
+git add . = a mesma coisa de fazer um comit
 git commi -m"texto vem aqui"
 git push = adcionar no repositorio do github 
 git pull = trazer o codigo do github mais atulizado 
