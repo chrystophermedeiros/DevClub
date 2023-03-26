@@ -7,3 +7,12 @@ git add . = a mesma coisa de fazer um comit
 git commi -m"texto vem aqui"
 git push = adcionar no repositorio do github 
 git pull = trazer o codigo do github mais atulizado 
+
+
+para cirar um repositorio
+
+git init
+git add . 
+git commit -m"texto aqui"
+git remote add origin https://github.com/chrystophermedeiros/DevClub
+git push -u origin main
