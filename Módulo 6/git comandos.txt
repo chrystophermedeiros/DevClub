@@ -4,3 +4,4 @@ git config --list
 
 git add. = a mesma coisa de fazer um comit
 git push = adcionar no repositorio do github 
+git pull = trazer o codigo do github mais atulizado
