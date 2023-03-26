@@ -3,4 +3,4 @@ git config --global user.name seu-username
 git config --list
 
 git add. = a mesma coisa de fazer um comit
-git push 
+git push = adcionar no repositorio do github 
