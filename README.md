@@ -6,7 +6,7 @@
 <br/>
 <p>Aquie contém layouts tanto pra desktop, quanto para smartphones</p>
 <br/>
-<img src="../DevClub/Modulo3-5/IMG/Telas.png"/>
+<img src="https://github.com/chrystophermedeiros/DevClub/blob/main/Modulo3-5/IMG/Telas.png?raw=true" />
 
 
 
