@@ -1,6 +1,6 @@
 git config - - global user.email seu-email
 git config --global user.name seu-username
-git config --list
+git config --list =  lista se deu certo
 
 git status
 git add . = a mesma coisa de fazer um comit
