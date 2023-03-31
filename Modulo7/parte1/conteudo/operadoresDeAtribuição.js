@@ -6,10 +6,6 @@
     /=      -> divisão
     *=      -> Multiplicação
     %=      -> Resto
-    >       -> maior
-    >=      -> maior ou igual
-    <       -> menor
-    <=      -> menor ou igual
 
 */
 
@@ -28,5 +24,4 @@ resto %= 2
 let firstNumber = 10
 let secondNumber = 20
 
-console.log(atribuicao, adicao, subtracao, divisao, multiplicacao, resto );
-console.log(firstNumber >= secondNumber);
+console.log(atribuicao, adicao, subtracao, divisao, multiplicacao, resto )
