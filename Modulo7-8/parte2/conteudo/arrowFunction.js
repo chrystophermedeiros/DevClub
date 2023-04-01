@@ -13,4 +13,4 @@ const sum = function (number1, number2) {
 
 const mult = (number1, number2) => number1 * number2 
 
-console.log(mult(2,3));
+console.log(mult(2,3))
