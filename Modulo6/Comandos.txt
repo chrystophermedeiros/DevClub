@@ -4,7 +4,7 @@ git config --list =  lista se deu certo
 
 git status
 git add . = a mesma coisa de fazer um comit
-git commi -m"texto vem aqui"
+git commit -m"texto vem aqui"
 git push = adcionar no repositorio do github 
 git pull = trazer o codigo do github mais atulizado 
 
