@@ -1,0 +1,25 @@
+
+const lis = [20,30,10,55,80,40,50,60,88,56,54646,64564]
+
+
+const companies = [
+    {name:"Sansung",marketvalue:50, CEo:"Kim Hyun Suk", foudeOn:1938},
+    {name:"Microsoft",marketvalue:415, CEo:"Satya Nadella", foudeOn:1975},
+    {name:"Intel",marketvalue:117, CEo:"Brian krzanich", foudeOn:1968},  
+    {name:"Meta",marketvalue:383, CEo:"Mark Zuckerberg", foudeOn:2004},
+    {name:"Spotify",marketvalue:30, CEo:"Daniel Ek", foudeOn:2006},
+    {name:"Apple",marketvalue:845, CEo:"Tim Cook", foudeOn:1976}
+]
+
+const valueMarket = companie => {companie.marketvalue  +=   companie.marketvalue / 10 
+return companie}
+const older = (year) => year.foudeOn < 2000
+const sum = (acc, current) => acc + current.marketvalue
+
+
+
+const result = companies.map(valueMarket).filter(older).reduce(sum, 0)
+
+
+
+console.log(result);

@@ -1,7 +1,7 @@
 /*
 
     MAP
-    Cria um novo array, a partit do array percorrido (array original)
+    Cria um novo array, a parti do array percorrido (array original)
     Cria um novo array, com a mesma quantidade de itens do array original
     Aceita 3 parametros
         item do array
