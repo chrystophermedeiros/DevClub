@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    line-height: 18px;
+}
+
+:root {
+    --backgroundPrimary: #1B83E2;
+    --colorFontSecund: #F4F4F4;
+}
+
+.container {
+    width: 375px;
+    height: 766px;
+    margin:0 auto;
+    padding: 24px;
+   
+}
+
+.result {
+    width: 327px;
+    height: 276px;
+    border: 1px solid var(--backgroundPrimary);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  
+
+}
+
+.selection{
+    width: 327px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    margin: 6px 0 24px 0;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    padding-left: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+
+    
+
+}
+
+
+
+.arrow{
+    Width:35px;
+    Height:49.81px;
+    margin: 16px auto;
+}
+
+.arrow:hover{
+    color: #1B83E2;
+}
+
+
+
+.value {
+    width: 327px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    outline: none;
+    appearance: none;
+    padding-left: 10px;
+    margin: 6px 0 0 0;
+
+}
+
+.result-value{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    color: #1B83E2;
+}
+
+.moeda{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+
+}
+
+input.value {
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+
+}
+
+
+
+header{
+    background-color: var(--backgroundPrimary);
+    color: var(--colorFontSecund);
+    border-radius: 5px;
+    width: 350px;
+    height: 66px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 24px;
+
+   
+}
+
+header h1 {
+    font-weight: 400;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+label {
+    font-weight: 700;
+    font-size: 16px;
+  
+
+}
+
+button {
+    background-color: var(--backgroundPrimary);
+    color: var(--colorFontSecund);
+    width: 327px;
+    height: 48px;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    align-items: center;
+    margin: 24px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active{
+    opacity: 0.5;
+}
+
+
+option{
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+}
+
+
+
