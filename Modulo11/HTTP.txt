@@ -1,0 +1,100 @@
+O QUE É HTPP
+O  HTTp(hypertext Tranfer Protocol ou ptotocolo de transferencia de hoipertexto em portugues)
+é um protocolo de comunicação. e um protocolo que espesifica como será a comunicação entre
+um navegador e um servidor web, Request e Response. E atraves dele o cliente servidor
+conseguem se comunicar, seguindo um conjunto de regras bem definidas(por isso chamamos de protocolo)
+
+por exemplo, se estivermos falando de uma aplicação web, o cliente é o navegador,
+ele envia um pedido para o servidor web usando o protocolo HTTP, com nesse pedido,
+se tudo estiver correto, o servidor responde tambem usando o mesmo protocolo com 
+o conteúdo solicitado.
+
+ hhtps://www.google.com/search?q=HTTP
+
+ URL + params(parametros) 
+
+
+ VERBOS HTTP
+ Request = requisição do cliente
+ Response = resposta do servidor
+
+
+ Get = Leitura
+ Post = Criação
+ Put = Atulização
+ Delete = Deleção
+ Patch = Atualização parcial
+ 
+ 
+params
+----------query params  = ?teste=1------------------
+
+httpp://pi.com/celulares?nam=samsung&preco=2000
+
+(
+    {
+        method:'get
+        url:'http://servidor.com/user?name=rodolfo'
+    }
+)
+
+
+
+
+
+--------------route paramsroute params = /users/1----------------
+Get - http://api.com/movies/1
+Delete - http://api.com/movies/1
+Put - http://api.com/movies/1
+
+(
+    {
+        method:'get'
+        url:'http://servidor.com/user/3'
+    }
+)
+
+
+
+
+-----------body params ------------
+{
+    "name": "chrystopher",
+    "age": 28,
+    "email" : "cc@gmail.com"
+}
+
+(
+    {
+       method:'post'
+       url:'http://servidor.com/user/12345'
+       data:{
+         "name": "chrystopher",
+         "age": 28,
+         "email" : "cc@gmail.com"
+       }
+
+    }
+     
+)
+
+
+----------codigos HTTP------------
+
+
+2xx - confirmação/Sucesso
+ 200 - Rquisição realida com sucesso
+ 201 - criado - requisição realizada com Sucessorequisição de criação realixzada com sucesso
+
+4xx - Erro cliente (front-end)
+ 400-band quest
+ 401- unauthorized
+ 403- forbidden(proibido)
+ 404- Not found(não foi encontrado)
+
+ 5xx - erro no servidor( falha ao concluir a solicitação)
+  500- internal server error
+  502- Bad Gateway
+
+
+

@@ -1,0 +1,11 @@
+mkdir "nome do projeto" =   cria uma pasta
+cd "nome da pasta" entra na pasta"  = entra na pasta
+cd ..   = volta a pasta anterior
+pwd = mostra  pasta que estou
+npm init = cria o projeto e faz varias perguntas
+npm init -y
+npm i express
+remove-item "nome do arquivo a ser deletado"
+
+node "nome do arquivo" roda o servidor
+ctrl=c para a aplicação
