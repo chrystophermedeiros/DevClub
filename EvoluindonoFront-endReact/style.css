@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.container{
+    
+    height: 700px;
+    display: flex;
+    flex-direction: row; /* pode fazer dessa forma flex-flow: row nowrap;*/
+    flex-wrap: wrap;
+    justify-content: center; /* alinhas os iten no eixo principal depende  do flex-direction*/
+    align-items: center; /* alinhas os iten no eixo secundario depende  do flex-direction*/
+    align-content: center; /* quase nunca usado */
+    gap: 2px;
+    margin: 10px;
+    border: 1px solid #9758a6;
+    
+}
+
+.block {
+   
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    flex-basis: 100px;
+    /*  ;
+    flex-grow: 1;
+    flex-shrink: 2; */
+    order: 2;
+    align-self: flex-end;
+    margin: 10px;
+
+   
+}
