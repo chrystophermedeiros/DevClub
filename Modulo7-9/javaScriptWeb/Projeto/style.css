@@ -15,30 +15,40 @@
     --colorFontSecund: #F4F4F4;
 }
 
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 .container {
-    width: 375px;
-    height: 766px;
-    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
     padding: 24px;
    
 }
 
 .result {
-    width: 327px;
+    width: 100%;
     height: 276px;
     border: 1px solid var(--backgroundPrimary);
     border-radius: 4px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
-    padding: 10px;
   
 
 }
 
 .selection{
-    width: 327px;
+    width: 100%;
     height: 48px;
     background: #FFFFFF;
     border: 1px solid #BBBBBB;
@@ -53,8 +63,6 @@
     padding-left: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
 
-    
-
 }
 
 
@@ -62,7 +70,6 @@
 .arrow{
     Width:35px;
     Height:49.81px;
-    margin: 16px auto;
 }
 
 .arrow:hover{
@@ -72,7 +79,7 @@
 
 
 .value {
-    width: 327px;
+    width: 100%;
     height: 48px;
     background: #FFFFFF;
     border: 1px solid #BBBBBB;
@@ -92,6 +99,7 @@
     font-size: 20px;
     line-height: 18px;
     color: #1B83E2;
+    
 }
 
 .moeda{
@@ -115,7 +123,7 @@ header{
     background-color: var(--backgroundPrimary);
     color: var(--colorFontSecund);
     border-radius: 5px;
-    width: 350px;
+    width: 100%;
     height: 66px;
     text-align: center;
     display: flex;
@@ -127,14 +135,13 @@ header{
 header h1 {
     font-weight: 400;
     font-size: 24px;
-    display: flex;
-    align-items: center;
     margin: auto;
 }
 
 label {
     font-weight: 700;
     font-size: 16px;
+    width:100% ;
   
 
 }
@@ -142,13 +149,12 @@ label {
 button {
     background-color: var(--backgroundPrimary);
     color: var(--colorFontSecund);
-    width: 327px;
+    width: 100%;
     height: 48px;
     border-radius: 25px;
     font-weight: 700;
     font-size: 16px;
     line-height: 18px;
-    align-items: center;
     margin: 24px 0;
     cursor: pointer;
 }
