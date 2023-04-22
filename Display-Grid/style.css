@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: minmax(200px, 1fr) 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    grid-template-rows: 2fr 1fr ;
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(300px, auto); */
+  
+    
+    
+}
+
+
+.one{
+    background-color: blue;
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    /* grid-row-start: 2;
+    grid-row-end: 5; */
+    
+
+}
+.two{
+    background-color: rgb(255, 0, 13);
+
+}
+
+.tree{
+    background-color: burlywood;
+    /* grid-column: 2/4; */
+    /* grid-row: 2/4; */
+    flex-flow: column wrap-reverse ;
+}
+
+.four{
+    background-color: chartreuse;
+}
+
+.five {
+    background-color: chocolate;
+    justify-self: center;
+    align-self: center;
+}
+
+.six{
+    background-color: blanchedalmond;
+}
+
+
+/* .containerr {
+    height: 100vh;
+    width: 100vw;
+    background-color: orangered;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr ;
+
+}
+
+header {
+    background-color: blue;
+    grid-column: 1/4;
+}
+main {
+    grid-column: 2/3;
+    background-color: cadetblue;
+}
+footer {
+    grid-column: 1/4;
+    background-color: blueviolet;
+}
+
+nav{
+    grid-row: 2/3;
+} */
+
+
+
+.containerr2 {
+    height: 100vh;
+    width: 100vw;
+    background-color: orangered;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr ;
+    grid-template-areas:
+    "header header header"
+    "nav main aside" 
+    "footer footer footer";
+
+}
+
+
+header {
+    background-color: blue;
+    grid-area: header;
+    
+}
+main {
+    background-color: cadetblue;
+    grid-area: main;
+}
+footer {
+    background-color: blueviolet;
+    grid-area: footer;
+}
+
+nav{
+    grid-area: nav;
+}
+
+.containerr3{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 0, 234);
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 10px;
+    justify-content: center;
+    align-content: center;
+   justify-items: center;
+   align-items: center;
+
+}

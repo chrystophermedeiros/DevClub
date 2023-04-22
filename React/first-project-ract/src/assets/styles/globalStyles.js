@@ -14,6 +14,7 @@ export default createGlobalStyle `
     line-height: 18px;
     outline: none;
     appearance: none;
+    text-decoration:none;
 
 }
 
