@@ -21,6 +21,8 @@ console.log(this === module.exports);
 const name = " chrystopher" //escopo global
 const myname = () => {
     const name = "chryatophwer" // escopo local
+    this.name
+    console.log(name);
 }
 
 const person = {
@@ -29,6 +31,19 @@ const person = {
     talk: function(){
         console.log("ola");
     }
+    
+     
 }
 
 console.log("ola")
+
+
+function greet(message) {
+    console.log(message + " " + this.name + "!");
+  }
+  
+  const person2 = {
+    name: "João"
+  };
+  
+  greet.call( "Olá", person2); // Saída: "Olá João!"

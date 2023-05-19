@@ -13,3 +13,4 @@ person = {
 ]
 
 console.log(array);
+
