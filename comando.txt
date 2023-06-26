@@ -6,6 +6,10 @@ npm create vite@latest -> cria o projeto
 npm install -> instal as as bibliotecas do node_modules
 npm run dev -> inicia o codigo
 
+-----------------Estilos globais com CSS--------------------------
+import { createGlobalStyle } from 'styled-components'
+npm i styled-components -> para instalar usar o codigo do npm i styled-components
+
 
 
 ----------------Bibliotecas------------------
