@@ -32,6 +32,9 @@ npx eslint --init -> inicia o eslnit
 --------------Routs-----------------
 npm i react-router-dom
 
+-------------style-components------------
+npm style-components
+
 (styled-components) -> serve para misturar CSS e JS
 npm i styled-components -> para instalar usar o codigo do npm i styled-components
 import styled from 'styled-components'; -> para funcionar precisar importar 
